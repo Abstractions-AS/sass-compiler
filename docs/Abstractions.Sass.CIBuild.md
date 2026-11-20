@@ -15,6 +15,7 @@ Originally based on and heavily influenced by the awesome [WebCompiler by Mads K
 
 ### What's new in the latest version
 
+- **The documentation and the changelog of each release are on [GitHub](https://github.com/Abstractions-AS/sass-compiler)**, with a release for each version. Visual Studio's extension manager links to it, under More info and Release notes.
 - **Icon fonts and Bulma 1.0 show in compressed CSS.** Compressed CSS with a character outside ASCII was written with two byte order marks, so a browser dropped its first rule, such as the `@font-face` of an icon font. Delete such a CSS file, or save `sassconfig.json`, and build, to write it again.
 - **New files are named as `sassconfig.json` names them.** On Windows, a new CSS file, its source map and its folders were named in lower case, which a case-sensitive file system (Linux, Docker) does not find by its name. Rename one that is in lower case once (in git, `git mv -f`).
 - **Initialize with** sets up an ASP.NET Core or Blazor project in one click: an empty Sass file for LibSass or Dart Sass, or Bulma 0.9.4 or 1.0.4, Bootstrap 5.3.9 or Pico CSS 2.1.1, downloaded with LibMan, with a stylesheet that shows how to set the framework's variables. Bulma comes with styles for the validation of ASP.NET Core, and a Blazor project gets the error and loading styles of Blazor.

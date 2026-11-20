@@ -4,9 +4,17 @@ What changes for the people who use the Visual Studio extension and the packages
 
 ## Unreleased (2.0, beta)
 
-## 2.0.3
+## 2.0.4
 
-2.0.1 and 2.0.2 were published with the release notes of 2.0.0, so these are the changes since 2.0.0: the byte order mark was fixed in 2.0.1, and the names of new files in 2.0.2. 2.0.3 has no changes of its own.
+2.0.3 was published to nuget.org, but not to the Visual Studio Marketplace or GitHub: the publishing tool of the build agent could not sign in, as it could not load an assembly it needs. 2.0.4 is the same release, published to all three, so these are the changes since 2.0.2.
+
+### Added
+
+- **The documentation and the changelog of each release are on GitHub, at [github.com/Abstractions-AS/sass-compiler](https://github.com/Abstractions-AS/sass-compiler).** Each release adds its documentation, the READMEs of the packages and the changelog there, with a GitHub release that has the changes of the version. The page of the extension on the Visual Studio Marketplace links to it, as do "More info" and "Release notes" in Visual Studio's extension manager, and `Abstractions.Sass.CIBuild` names it as its repository on nuget.org. The source is not on GitHub.
+
+## 2.0.2
+
+2.0.1 was published with the release notes of 2.0.0, so these are the changes since 2.0.0: the byte order mark was fixed in 2.0.1, and the names of new files in 2.0.2.
 
 ### Fixed
 
